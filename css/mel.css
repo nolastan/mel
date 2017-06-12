@@ -1,0 +1,43 @@
+* { box-sizing: border-box; }
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FEFEFE;
+}
+
+a {
+  padding: 12px;
+  font-family: Inconsolata-Bold;
+  font-size: 38px;
+  color: #F44C96;
+  display: inline-block;
+  margin: 12px 0;
+  border: 4px solid #F44C96;
+  text-decoration: none;
+  cursor: default;
+}
+
+em {
+  color: #63399E;
+  font-style: normal;
+}
+
+main {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.hero {
+  padding: 16px;
+  margin: 16px;
+}
+
+img {
+  margin: 16px;
+}
+
+@media only screen and (min-width: 35em) {
+  main { flex-direction: row;}
+}
