@@ -5,11 +5,17 @@ body {
   align-items: center;
   justify-content: center;
   background: #FEFEFE;
+  font-family: 'Cabin', sans-serif;
+}
+
+h1 {
+  color: #F44C96;
+  font-weight: 100;
 }
 
 a {
   padding: 12px;
-  font-family: Inconsolata-Bold;
+  font-family: 'Inconsolata', monospace;
   font-size: 38px;
   color: #F44C96;
   display: inline-block;
